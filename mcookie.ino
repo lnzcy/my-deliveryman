@@ -1,15 +1,4 @@
-/*
-来源: https://www.oursparkspace.cn/?yada_wiki=1541225972
-作者: 张林羽觐
-
-由于新版arduino IDE for mCookie中对SHT2x.h和ESP8266.h进行了修改
-因此对原有代码进行修改 不需要任何外部头文件
-*/
-
-/**
- * 需要做替换的部分!!!!!!!!!
- * 
-*/
+//部分代码来自商家提供
 #include "./ESP8266.h"
 #include <SoftwareSerial.h>
 
