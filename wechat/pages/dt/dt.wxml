@@ -1,0 +1,3 @@
+<!--pages/dt/dt.wxml-->
+
+<button bindtap="map">定位</button>

@@ -1,0 +1,5 @@
+.img {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 100%;
+}

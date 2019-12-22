@@ -1,0 +1,121 @@
+view {
+  display: inline-block;
+}
+ 
+.container {
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+}
+ .background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  margin-top:0px;
+  z-index: -1;
+
+}
+.section {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50rpx;
+  position: relative;
+}
+.tzan{
+  display:inline-block;
+}
+
+.connection {
+  margin-left: 90rpx;
+}
+ 
+.list {
+  margin-left: 20rpx;
+}
+ 
+.content {
+  margin-left: 100rpx;
+  padding: auto;
+  position: absolute;
+  top: 5rpx;
+  left: 10rpx;
+  color:rgb(7, 7, 7);
+  font-size:25px;
+  font-weight:700;
+}
+ 
+.switch {
+  position: relative;
+  float: right;
+  margin-right: 100rpx;
+}
+ 
+button {
+  background: red\;
+}
+ 
+.list-item {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx; 
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px dashed #000;
+}
+ 
+.list-item text {
+   margin-top: 10rpx;
+}
+ 
+ 
+.list-item button {
+  margin-right: 10rpx;
+}
+ 
+.deviceconnected{
+  background-color:sandybrown
+}
+ 
+.recieve{
+  width: 100%
+}
+ 
+.recieve_textarea{
+  width: 100%;
+  margin-top: 10dpx;
+}
+ 
+input{
+  display: block;
+  border: 1px dashed;
+  width: 200px;
+}
+
+
+
+
+.relative {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.pic_background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 90px;
+  left: 120px;
+  
+  
+}
+.pic_tou {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 130px;
+ 
+}
+
+

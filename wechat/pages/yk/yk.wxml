@@ -1,0 +1,16 @@
+<view class="an">
+                
+                  <image class="img1" bindtap="forward"src="../images/s.png"></image>
+                
+                  <image class="img2" bindtap="turnleft"src="../images/z.png"></image>
+                
+                  <image class="img3" bindtap="stop"src="../images/stop.jpg"></image>
+               
+                  <image class="img4" bindtap="turnright"src="../images/y.png"></image>
+               
+                  <image class="img5" bindtap="backward"src="../images/x.png"></image>
+                <image class="img6" bindtap="zs"src="../images/zs.png"></image>
+                <image class="img7" bindtap="zx"src="../images/zx.png"></image>
+                <image class="img8" bindtap="ys"src="../images/ys.png"></image>
+                <image class="img9" bindtap="yx"src="../images/yx.png"></image>
+                </view>

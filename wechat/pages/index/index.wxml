@@ -1,0 +1,47 @@
+<view class="container">
+   <!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../images/bg3.png" mode="aspectFill"></image>
+	<!--页面其它部分-->
+  <view class="section">      
+    <view class="content">
+      <text>蓝牙开关</text>
+    </view>
+    <view class="switch">
+      <switch checked="{{isbluetoothready}}" bindchange="open_BLE" />
+    </view>
+  </view>
+ 
+ 
+  <view class="section">       
+    <button type="default" size="{{primarySize}}" loading="{{searchingstatus}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="search_BLE"> {{searchingstatus?"搜索中":"搜索蓝牙设备"}} </button>
+  </view>
+  <block wx:for="{{list}}">     
+    <view class="section" style="flex-direction:row" >
+      <view>
+        <text>{{index}}:\n </text>
+        <text>设备名称:  {{item.name}}\n</text>
+        <text>MAC地址:   {{item.deviceId}}</text>
+      </view>
+      <view class="connection">
+      <button id="{{item.deviceId}}" size="mini"
+              bindtap="connectTO"> {{deviceconnected?"已连接":"连接"}} </button>
+      </view>
+    </view>
+</block> 
+ 
+<block wx:if="{{deviceconnected}}">    
+ 
+    <view class="send">
+      <form bindsubmit="formSubmit">
+      <view class="tzan"><button bindtap="yk">遥控</button></view>
+        
+      </form>
+    </view>
+</block>
+ 
+</view>
+
+
+
+
+
